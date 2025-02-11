@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "test-rest-app"
+logging:
+  level:
+    root: info
+    ru.t1.java.demo.logging: debug
+  http:
+    enabled: true
+    level: error

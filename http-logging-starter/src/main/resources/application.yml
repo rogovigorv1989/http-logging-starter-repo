@@ -1,4 +1,0 @@
-logging:
-  http:
-    enabled: true
-    level: debug
