@@ -21,7 +21,6 @@ target/
 .idea/
 
 .gitattributes
-maven-wrapper.properties
 mvnw
 mvnw.cmd
 
