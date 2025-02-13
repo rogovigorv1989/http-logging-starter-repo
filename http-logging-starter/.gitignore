@@ -20,6 +20,11 @@ target/
 *.ipr
 .idea/
 
+.gitattributes
+maven-wrapper.properties
+mvnw
+mvnw.cmd
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
