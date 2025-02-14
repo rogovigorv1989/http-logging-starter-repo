@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestRestController {
-    @GetMapping("/hello")
-    public String hello(@RequestParam String name) {
-        return "Hello, " + name;
+
+    @GetMapping("/test")
+    public String hello(@RequestParam String value) {
+        return "You entered a value: " + value;
     }
 }
